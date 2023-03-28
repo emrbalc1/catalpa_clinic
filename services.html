@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalpa Clinic</title>
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="p-3">
+    <nav class="container-md d-flex justify-content-between align-items-center">
+      <a id="head-logo" class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="Logo" width="50" class="img-fluid">
+        Catalpa Clinic
+      </a>
+      <!-- Nav-bar and Hamburger box -->
+       <input type="checkbox" id="toggle">
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <ul id="nav-bar" class="nav-list d-flex">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item"><a href="services.html">Services</a></li>
+        <li class="nav-item"><a href="insurances.html">Insurances</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Services Page -->
+
+  <section class="container-md services">
+    <h2 class="text-center m-5">Services</h2>
+
+    <!-- Nav tabs -->
+<ul class="nav nav-tabs justify-content-between" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="urgent-tab" data-bs-toggle="tab" data-bs-target="#urgent" type="button" role="tab" aria-controls="home" aria-selected="true">Urgent issues</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="men-tab" data-bs-toggle="tab" data-bs-target="#men" type="button" role="tab" aria-controls="profile" aria-selected="false">Men’s Health</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="sexual-tab" data-bs-toggle="tab" data-bs-target="#sexual" type="button" role="tab" aria-controls="messages" aria-selected="false">Sexual Health</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="ongoing-tab" data-bs-toggle="tab" data-bs-target="#ongoing" type="button" role="tab" aria-controls="settings" aria-selected="false">Ongoing Issues</button>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="urgent" role="tabpanel" aria-labelledby="urgent-tab" tabindex="0">
+    <ul class="list-group">
+      <li class="list-group-item">Cold, Flu, COVID</li>
+      <li class="list-group-item">Bronchitis</li>
+      <li class="list-group-item">Sinus Infections</li>
+      <li class="list-group-item">Urinary Tract Infections</li>
+      <li class="list-group-item">Skin Infections</li>
+      <li class="list-group-item">STI's</li>
+      <li class="list-group-item">Lacerations</li>
+    </ul>
+  </div>
+  <div class="tab-pane" id="men" role="tabpanel" aria-labelledby="men-tab" tabindex="0">
+    <ul class="list-group">
+      <li class="list-group-item">Low Testosterone</li>
+      <li class="list-group-item">Low Libido</li>
+      <li class="list-group-item">Erectile Dysfunction</li>
+      <li class="list-group-item">Hair Loss</li>
+      <li class="list-group-item">Prostate Issues</li>
+    </ul>
+  </div>
+  <div class="tab-pane" id="sexual" role="tabpanel" aria-labelledby="sexual-tab" tabindex="0">
+    <ul class="list-group">
+      <li class="list-group-item">Sexually transmitted infections (STIs) testing and treatment</li>
+      <li class="list-group-item">HIV Pre-exposure Prophylaxis (PreP)</li>
+      <li class="list-group-item">HIV Post-exposure Prophylaxis (PEP)</li>
+      <li class="list-group-item">Erectile dysfunction</li>
+      <li class="list-group-item">Low libido</li>
+    </ul>
+  </div>
+  <div class="tab-pane" id="ongoing" role="tabpanel" aria-labelledby="ongoing-tab" tabindex="0">
+    <ul class="list-group">
+      <li class="list-group-item">High blood pressure</li>
+      <li class="list-group-item">High cholesterol</li>
+      <li class="list-group-item">Asthma</li>
+      <li class="list-group-item">Thyroid disorders</li>
+      <li class="list-group-item">Weight management</li>
+      <li class="list-group-item">Depression</li>
+      <li class="list-group-item">Anxiety</li>
+      <li class="list-group-item">Insomnia</li>
+      <li class="list-group-item">Seasonal allergies</li>
+      <li class="list-group-item">Joint pains and injections</li>
+      <li class="list-group-item">Cross Sex Hormonal Therapy</li>
+    </ul>
+  </div>
+</div>
+    
+    
+    
+  </section>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
